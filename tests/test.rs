@@ -29,7 +29,7 @@ async fn success() {
         program_id,
         processor!(process_instruction),
     );
-    let amount = 10_000;
+    let amount = 666;
     let decimals = 9;
     let rent = Rent::default();
 
