@@ -10,7 +10,7 @@ use {
     },
     spl_token::{
         instruction::transfer_checked,
-        state::{Account, Mint},
+        state::Mint,
     },
 };
 
